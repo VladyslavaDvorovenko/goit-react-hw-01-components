@@ -1,0 +1,42 @@
+.item {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  border: 1px solid grey;
+  background-color: Thistle;
+}
+
+.online {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: rgba(0, 128, 0, 0.671);
+}
+
+.offline {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: rgba(255, 0, 0, 0.61);
+}
+
+.avatar {
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  margin-left: 5px;
+  width: 40px;
+}
+
+.name {
+  margin-left: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.19;
+  color: rgba(0, 0, 0, 0.89);
+}
